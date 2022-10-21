@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ColorPicker</title>
+    <link rel="stylesheet" href="css/index.css">
+  </head>
+  <body>
+    <div id="parent">
+      <div id="heads">
+        <h2>Red</h2>
+        <h2>Green</h2>
+        <h2>Blue</h2>
+      </div>
+      <div id="colors">
+        <div class="red"><p id="red-value"></p></div>
+        <div class="green"><p id="green-value"></p></div>
+        <div class="blue"><p id="blue-value"></p></div>
+      </div>
+      <div id="ranges">
+        <input type="range" min="0" max="255" step="1" value="150" class="red-range">
+        <input type="range" min="0" max="255" step="1" value="150" class="green-range">
+        <input type="range" min="0" max="255" step="1" value="150" class="blue-range">
+      </div>
+      <div id="mix"></div>
+    </div>
+    <p id="rgb-value"></p>
+    <script src="js/index.js"></script>
+  </body>
+</html>
