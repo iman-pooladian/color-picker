@@ -66,3 +66,4 @@ window.addEventListener("load", function () {
   redValue.textContent = r;
   redBox.style.backgroundColor = `rgb(${r},0,0)`;
 });
+  
